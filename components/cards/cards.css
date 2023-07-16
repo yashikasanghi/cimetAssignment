@@ -1,0 +1,247 @@
+.cardBody {
+  border: solid 1px #dadada;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.cardFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5rem;
+}
+
+.blue_h {
+  color: #6cc7f4;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logoDivAlign {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.gray_box {
+  border-radius: 5px;
+  background: #f5f5f5;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.middleTopBox {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  margin-top: 1rem;
+  flex-basis: 45%;
+}
+
+.checkIcon {
+  color: #1d2e77;
+  height: 1rem;
+  margin: 3px 5px 0px 10px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 5px;
+
+  justify-content: center;
+}
+
+.featuresPara {
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+
+.feedInTarrifBox {
+  display: flex;
+  background: #deeff1;
+  padding: 5px 10px 5px 1px;
+  margin: 0 10px;
+}
+
+.btnConnect {
+  margin-right: 1rem;
+  background: #1a2b75;
+  color: white;
+  font-weight: 500;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 1rem;
+  color: #535353;
+  font-weight: 500;
+}
+
+.borderIcon {
+  height: 1.5rem;
+  color: #565f67;
+  margin-right: 5px;
+}
+
+.estimatedCostBox {
+  width: 18rem;
+  display: flex;
+  border: #dcddde 1px solid !important;
+  height: fit-content;
+}
+
+.estimatedCostHeader {
+  background: #2f5ea1 !important;
+  font-weight: 500;
+}
+
+.cardBorderTags {
+  display: flex;
+  position: absolute;
+}
+
+.cardBorderTagBoxes {
+  display: flex;
+  margin: -1rem 0rem 0rem 2rem;
+  padding: 0.5rem;
+}
+
+.cardInformationCircleIcon {
+  height: 1rem;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.currencyDollarIconYear {
+  height: 3rem;
+}
+
+.currencyDollarIconMonth {
+  height: 2rem;
+}
+
+.cardBodyPadding {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.logoImg {
+  height: 5rem;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.estimatedCostBody {
+  background: #cfe7ea;
+}
+
+.estimatedCostPerYear {
+  color: #1c2d76;
+  display: flex;
+}
+
+.estimatedCostPerYearSpan {
+  color: #7a7a7b;
+  font-size: 1rem;
+}
+
+.estimatedCostPerMonth {
+  color: #5895bf;
+  display: flex;
+  margin-left: 5px;
+}
+
+.estimatedCostPerMonthSpan {
+  color: #7a7a7b;
+  font-size: 1rem;
+}
+
+.descriptionDiv {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.footerText {
+  margin-left: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .middle_top_box {
+    margin: 0 2rem;
+    width: auto;
+  }
+
+  .logoImg {
+    height: 5rem;
+    margin-left: -2rem;
+  }
+  .cardFlex {
+    display: grid;
+    grid-gap: 2rem;
+    margin-left: 2rem;
+    justify-content: center;
+  }
+
+  .estimatedCostBox {
+    margin-left: 2rem;
+    min-width: 25rem;
+  }
+
+  .cardFooter {
+    display: grid;
+  }
+
+  .btnConnectDiv {
+    display: grid;
+  }
+
+  .featuresPara {
+    line-height: 1rem;
+  }
+
+  .feedInTarrifBox {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardFooter {
+    display: grid;
+  }
+
+  .btnConnectDiv {
+    display: grid;
+  }
+
+  .cardFlex {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    width: 95%;
+  }
+
+  .estimatedCostBox {
+    height: fit-content !important;
+
+    width: fit-content;
+    min-width: 23rem;
+  }
+
+  .features {
+    margin-right: 13px;
+  }
+
+  .estimatedCostHeader {
+    display: flex;
+  }
+}

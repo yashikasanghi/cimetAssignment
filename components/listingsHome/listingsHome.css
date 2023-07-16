@@ -1,0 +1,105 @@
+.mainBody {
+  margin: 2rem;
+  width: 96%;
+  border-radius: 5px;
+}
+
+.filterBtn {
+  background: #1a2b75;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  width: 6.5rem;
+}
+
+.electricityDiv {
+  background: #1a2b75;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.electricityCircle {
+  background: white;
+  color: #1a2b75;
+  border-radius: 2rem;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.subHeadingDiv {
+  display: flex;
+  margin: 1rem 0rem;
+  color: #464646;
+  font-weight: 500;
+}
+
+.NSWDiv {
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+  margin-top: 0.6rem;
+  font-size: 18px;
+}
+
+.topContentDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mapIcon {
+  height: 1.5rem;
+}
+
+.funnelIcon {
+  height: 1rem;
+}
+
+.informationCircleIcon {
+  height: 1.3rem;
+}
+
+.loadingSpinnerMain {
+  display: flex;
+  justify-content: center;
+}
+
+.loadingSpinnerPosition {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loadingSpinner {
+  height: 5rem;
+  width: 5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .topContentDiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .electricityDiv {
+    padding: 0.8rem 5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mainBody {
+    margin: 0.5rem;
+  }
+}
